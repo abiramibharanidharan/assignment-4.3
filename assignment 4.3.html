@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html>
+      <head>
+            <title>
+                   Assignment 4.3 
+            </title>
+             <style>
+                        /* to style the box*/
+                   .box {
+                          width:100px;
+                          height:100px;
+                          border:1px solid red;
+                          margin:0;
+                          padding:3em;
+                          background-color:#333333;
+                         }
+                        /* set transition and transform to the div*/
+                     div {
+                             width:100px;
+                             height:100px;
+                            
+                             -webkit-transition:width 2s,height 2s,-webkit-transform 2s;
+                              transition:widh 2s,height 2s,transform 2s;
+                          }
+                       /*rotate the box 360 degree with the width 500 and geight 400 px*/
+                      div:hover {
+                                 width:500px;
+                                 height:400px;
+                                 background-color:blue;
+                                 -webkit-transform:rotate(360deg);
+                                  transform:rotate(360deg);
+                               
+                                   img:hover {
+                                                border:10px solid red;
+                                                
+                                             }
+
+                                }
+
+                              
+              </style>
+        </head>
+        <body>
+               <h3> Example of div box image transition</h3> 
+              <div class="box">
+                     <img src="..\blue bird.jpg" alt="the blue bird" width="100"/>
+               </div>
+         </body>
+</html>
+
+             
